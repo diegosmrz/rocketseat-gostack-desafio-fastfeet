@@ -29,6 +29,12 @@ class RecipientController {
       cep,
     });
   }
+
+  async update(req, res) {
+    console.log(req.userID);
+
+    return res.json(req.userID);
+  }
 }
 
 export default new RecipientController();
