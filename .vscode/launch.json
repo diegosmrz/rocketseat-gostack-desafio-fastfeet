@@ -8,7 +8,7 @@
       "type": "node",
       "request": "attach",
       "name": "Launch Program",
-      "protocal": "inspector",
+      "protocol": "inspector",
     }
   ]
 }
